@@ -1,0 +1,13 @@
+<!--pages/top/top.wxml-->
+<template name="top">
+   <view class="title">{{title}}</view>
+<view class="unit">单位：元</view>
+</template>
+
+<template name="bottom">
+  <view class="prove">
+    <view class="left con">村委会负债人:<text style="color:red">{{personOne}}</text></view>
+    <view class="middle con">会计:<text style="color:red">{{personTwo}}</text></view>
+    <view class="right con">村务公开监督(理财)小组:<text style="color:red">{{personThree}}</text></view>
+  </view>
+</template>

@@ -1,0 +1,43 @@
+/* pages/text/text.wxss */
+@import "../top/top.wxss";
+.box{
+  width: 96%;
+  margin:0 auto;
+  overflow: hidden;
+}
+.tr{
+  width: 167%;
+  /* width: 100%; */
+  font-size: 14px;
+  display: flex;
+  white-space: normal;
+}
+.td{
+  width: 130rpx;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 4rpx;
+}
+.td:nth-child(8n+1){
+  width: 140rpx;
+}
+.td:nth-child(8n+3) {
+  width: 200rpx;
+  text-align: right;
+}
+.td:nth-child(8n+7) {
+  width: 200rpx;
+  text-align: right;
+}
+
+.th{
+  background: #E6F3F9;
+}
+@media (min-width: 480px) {
+  .tr {
+    width: 100%;
+  }
+}
+.tit{
+  text-align: center!important;
+}

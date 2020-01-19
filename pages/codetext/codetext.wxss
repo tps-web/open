@@ -1,0 +1,27 @@
+/* pages/codetext/codetext.wxss */
+@import "../top/top.wxss";
+.box{
+  width: 96%;
+  margin:0 auto;
+}
+.tr{
+  width: 220%;
+  display: flex;
+  white-space: normal;
+  /* font-size: 28rpx; */
+  font-size: 14px;
+}
+.td{
+  width: 100%;
+  text-align: center;
+  border: 1rpx solid #ccc;
+  padding: 4rpx;
+}
+.th{
+  background: #E6F3F9;
+}
+@media (min-width: 480px) {
+  .tr {
+    width: 100%;
+  }
+}

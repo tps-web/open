@@ -1,0 +1,111 @@
+<!--index.wxml-->
+<!-- 搜索 -->
+<view class="top">
+  <view class="search">
+    <image src="../../images/search.png"></image>
+    <input placeholder="搜索" bindconfirm="wxSearchConfirm"></input>
+  </view>
+</view>
+<!-- tab切换 -->
+<!-- <view class="content">
+<van-tabs swipeable>
+  <van-tab wx:for="{{titArr}}" wx:key="index" title="{{item.tit}}">
+    <scroll-view scroll-y='true' style='height:100%;'>
+  <view class="boxContent">
+    <view class="panel" wx:for="{{item.content}}" wx:for-item="value" data-id="{{value.id}}" wx:key="index"  bindtap='details'>
+         <view class="tit">{{value.title}}</view>
+         <view class="panelBox" >
+            <image src="../../images/region.png" class="regionImg"></image>
+            <view class="region common">{{value.region}}</view>
+         </view>
+         <view class="panelBox">
+         <image src="../../images/time.png" class="timeImg"></image>
+          <view class="time common">{{value.time}}</view>
+          </view>
+      </view>
+  </view>
+     </scroll-view>
+  </van-tab>
+</van-tabs>
+</view> -->
+<!-- 测试表1 -->
+ <view class="content">
+<van-tabs swipeable>
+  <van-tab title="综合信息">
+     <view class="boxContent">
+        <view class="panel" wx:for='{{zonghe}}' wx:key="index" >
+           <view class="tit">{{item.title}}</view>
+            <view class="panelBox" >
+                <image src="../../images/region.png" class="regionImg"></image>
+                <view class="region common">{{item.region}}</view>
+            </view>
+            <view class="panelBox">
+            <image src="../../images/time.png" class="timeImg"></image>
+              <view class="time common">{{item.time}}</view>
+              </view>
+            </view>
+     </view>
+  </van-tab>
+  <van-tab title="政策法规">
+    <view class="boxContent">
+          <view class="panel" wx:for='{{zhengce}}' wx:key="index" >
+            <view class="tit">{{item.title}}</view>
+              <view class="panelBox" >
+                  <image src="../../images/region.png" class="regionImg"></image>
+                  <view class="region common">{{item.region}}</view>
+              </view>
+              <view class="panelBox">
+              <image src="../../images/time.png" class="timeImg"></image>
+                <view class="time common">{{item.time}}</view>
+                </view>
+              </view>
+      </view>
+   </van-tab>
+  <van-tab title="通知公告">
+    <view class="boxContent">
+          <view class="panel" wx:for='{{tongzhi}}' wx:key="index" >
+            <view class="tit">{{item.title}}</view>
+              <view class="panelBox" >
+                  <image src="../../images/region.png" class="regionImg"></image>
+                  <view class="region common">{{item.region}}</view>
+              </view>
+              <view class="panelBox">
+              <image src="../../images/time.png" class="timeImg"></image>
+                <view class="time common">{{item.time}}</view>
+                </view>
+              </view>
+      </view>
+  </van-tab>
+  <van-tab title="公开">
+     <view class="boxContent">
+     
+       <view class="panel" >
+        <van-cell title="村干部及村工作人员待遇补贴情况表" data-url='/pages/text/text' bindtap="gourl" />
+         <!-- <view data-url='/pages/text/text' bindtap="gourl">村干部及村工作人员待遇补贴情况表</view> -->
+       </view>
+        <view class="panel" >
+          <van-cell title=" 收入支出情况表"data-url='/pages/text/text' bindtap="gourl" />
+        </view>
+         <view class="panel" >
+          <van-cell title=" 现金/银行收支明细表"data-url='/pages/text/text' bindtap="gourl" />
+        </view>
+         <view class="panel" >
+          <van-cell title=" 债权（应收款项）明细表"data-url='/pages/text/text' bindtap="gourl" />
+        </view>
+         <view class="panel" >
+          <van-cell title=" 债权（应付款项）明细表"data-url='/pages/text/text' bindtap="gourl" />
+        </view>
+         <view class="panel" >
+          <van-cell title=" 债权（应付款项）明细表"data-url='/pages/text/text' bindtap="gourl" />
+        </view>
+         <view class="panel" >
+          <van-cell title=" 资产负债表"data-url='/pages/text/text' bindtap="gourl" />
+        </view>
+          <view class="panel" >
+          <van-cell title="政府拨款使用管理情况明细表"data-url='/pages/text/text' bindtap="gourl" />
+        </view>
+     </view>
+  </van-tab>
+</van-tabs>
+</view> 
+

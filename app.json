@@ -1,0 +1,58 @@
+{
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#E85A57",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/1.png",
+      "selectedIconPath": "images/11.png"
+    },
+      {
+        "pagePath": "pages/notice/notice",
+        "text": "公告",
+        "iconPath": "images/gg.png",
+        "selectedIconPath": "images/gg.png"
+      },
+    {
+      "pagePath": "pages/me/me",
+      "text": "我的",
+      "iconPath": "images/5.png",
+      "selectedIconPath": "images/55.png"
+    }
+  
+    ]
+  },
+  "pages": [
+    "pages/index/index",
+    "pages/codetext/codetext",
+    "pages/text5/text5",
+    "pages/text/text",
+    "pages/text6/text6",
+    "pages/text4/text4",
+    "pages/text2/text2",
+    "pages/text1/text1",
+    "pages/login/login",
+    "pages/notice/notice",    
+    "pages/me/me",
+    "pages/introduced/introduced",
+    "pages/details/details",
+    "pages/accredit/accredit",
+    "pages/register/register",
+    "pages/complaint/complaint",
+    "pages/contact/contact",
+    "pages/scale/scale",
+    "pages/text3/text3",
+    "pages/top/top"
+    
+      ],
+  
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

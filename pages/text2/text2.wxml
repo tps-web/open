@@ -1,0 +1,42 @@
+<!--pages/text2/text2.wxml-->
+<import src="../top/top.wxml"/>
+    <template is="top" data="{{title: '现金/银行收支明细表'}}"/>
+<scroll-view scroll-x="true" class="box">
+  <view class="tr th">
+    <view class="td tit">日期</view>
+    <view class="td tit">摘要</view>
+    <view class="td tit">收入金额</view>
+    <view class="td tit">支出金额</view>
+    <view class="td tit">余额</view>
+  </view>
+  <view class="tr">
+    <view class="td">xx月xx日</view>
+    <view class="td">收入金额</view>
+    <view class="td">21,123,123.00</view>
+    <view class="td">21,123,123.00</view>
+    <view class="td">21,123,123.00</view>
+  </view>
+  <view class="tr">
+    <view class="td">xx月xx日</view>
+    <view class="td">收入金额</view>
+    <view class="td">21,123,123.00</view>
+    <view class="td">21,123,123.00</view>
+    <view class="td">21,123,123.00</view>
+  </view>
+   <view class="tr">
+    <view class="td">xx月xx日</view>
+    <view class="td">收入金额</view>
+    <view class="td">21,123,123.00</view>
+    <view class="td">21,123,123.00</view>
+    <view class="td">21,123,123.00</view>
+  </view>
+   <view class="tr">
+    <view class="td">xx月xx日</view>
+    <view class="td">收入金额</view>
+    <view class="td">21,123,123.00</view>
+    <view class="td">21,123,123.00</view>
+    <view class="td">21,123,123.00</view>
+  </view>
+   <template is="bottom" data="{{personOne:'彭于晏',personTwo:'胡歌',personThree: '陈小小'}}"/>
+</scroll-view>
+   

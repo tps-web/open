@@ -1,0 +1,49 @@
+.title{
+  font-size: 16px;
+  text-align: center;
+}
+.unit{
+  width: 96%;
+  margin:0 auto;
+  text-align: right;
+  font-size: 14px;
+}
+.fromBox{
+  display: flex;
+  width: 96%;
+  margin:0 auto;
+  height: 100%;
+  white-space: nowrap; 
+}
+.box{
+  display: inline-block;
+  width: 780rpx;
+  /* width: 120%; */
+}
+.mbox{
+  display: flex;
+  width: 100%; 
+  flex-wrap: wrap;
+}
+.td{
+  width: 32%;
+  /* overflow: auto; */
+  white-space:normal;
+  display:inline-block;
+  text-align: center;
+  font-size: 14px;
+  padding: 4rpx;
+  border: 1rpx solid #ccc;
+}
+.bottom{
+  width: 1540rpx;
+  display: flex;
+  font-size: 14px;
+}
+.common{
+  width: 33.3%;
+  display: inline-block;
+}
+.th{
+  background: #E6F3F9;
+}

@@ -1,0 +1,57 @@
+<!--pages/details/details.wxml-->
+
+
+  <view class="tit">报表</view>
+<canvas canvas-id='lineCanvas' class="canv"></canvas>
+
+{{id}}
+
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">id</view>
+    <view class="th">head2</view>
+    <view class="th ">head3</view>
+  </view>
+  <block wx:for="{{listData}}" wx:key="{{code}}">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.code}}</view>
+      <view class="td">{{item.text}}</view>
+      <view class="td">{{item.type}}</view>
+    </view>
+    <view class="tr" wx:else>
+      <view class="td">{{item.code}}</view>
+      <view class="td">{{item.text}}</view>
+      <view class="td">{{item.type}}</view>
+    </view>
+  </block>
+</view>
+
+
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">id</view>
+    <view class="th">head2</view>
+    <view class="th ">head3</view>
+     <view class="th">id</view>
+    <view class="th">head2</view>
+    <view class="th ">head3</view>
+  </view>
+  <block wx:for="{{listData1}}" wx:key="index">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.code}}</view>
+      <view class="td">{{item.text}}</view>
+      <view class="td">{{item.type}}</view>
+       <view class="td">{{item.codeq}}</view>
+      <view class="td">{{item.textq}}</view>
+      <view class="td">{{item.typeq}}</view>
+    </view>
+    <view class="tr" wx:else>
+      <view class="td">{{item.code}}</view>
+      <view class="td">{{item.text}}</view>
+      <view class="td">{{item.type}}</view>
+      <view class="td">{{item.codeq}}</view>
+      <view class="td">{{item.textq}}</view>
+      <view class="td">{{item.typeq}}</view>
+    </view>
+  </block>
+</view>

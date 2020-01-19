@@ -1,0 +1,9 @@
+<!--pages/introduced/introduced.wxml-->
+<view class="box">
+  <view class="top">
+    中心介绍
+  </view>
+  <view class="content">
+    待补充
+  </view>
+</view>

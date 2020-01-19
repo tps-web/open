@@ -1,0 +1,26 @@
+<!--pages/text3/text3.wxml-->
+<import src="../top/top.wxml"/>
+    <template is="top" data="{{title: '债权（应付款项）明细表'}}"/>
+<scroll-view scroll-x='true' class="box">
+  <view class="tr th">
+      <view class="td tit">债务人(单位)</view>
+      <view class="td tit">债务内容</view>
+      <view class="td tit">经手人</view>
+      <view class="td tit">发生时间</view>
+      <view class="td tit">应付数</view>
+      <view class="td tit">本期支付数</view>
+      <view class="td tit">应付结余数</view>
+      <view class="td tit">备注</view>
+  </view>
+  <view class="tr" wx:for="{{listData}}" wx:key="index">
+      <view class="td">周杰伦</view>
+      <view class="td">流动资产</view>
+      <view class="td">周杰伦</view>
+      <view class="td">xx月xx日</view>
+      <view class="td">12,123,123.00</view>
+      <view class="td">12,123,123.00</view>
+      <view class="td">12,123,123.00</view>
+      <view class="td">流动资产</view>
+  </view>
+ <template is="bottom" />
+</scroll-view>

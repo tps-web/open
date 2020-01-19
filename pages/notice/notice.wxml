@@ -1,0 +1,40 @@
+<view class="top">
+      <view class="left">
+      <picker class="pickerSconed" mode="multiSelector"     bindchange="bindMultiPickerChange"  bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+      <view class="picker">
+        <!-- {{multiArray[0][multiIndex[0]]}}， -->
+        {{multiArray[1][multiIndex[1]]}}
+        <van-icon name="arrow-down" />
+      </view>
+</picker>
+      </view>
+      <view class="right">
+      <view class="search">
+      <image src="../../images/search.png"></image>
+           <input placeholder="搜索" bindconfirm="wxSearchConfirm"></input>
+     </view>
+      </view>
+</view>
+<view class="content" >
+<van-tabs swipeable>
+  <van-tab wx:for="{{titArr}}" wx:key="index" title="{{item.tit}}">
+   <scroll-view scroll-y='true'  style='height:100%;'>
+  <view class="boxContent">
+    <view class="panel" wx:for="{{item.content}}" wx:for-item="value" data-id="{{value.id}}" wx:key="index" bindtap="details">
+         <view class="tit">{{value.title}}</view>
+         <view class="panelBox">
+            <image src="../../images/region.png" class="regionImg"></image>
+            <view class="region common">{{value.region}}</view>
+         </view>
+         <view class="panelBox">
+         <image src="../../images/time.png" class="timeImg"></image>
+          <view class="time common">{{value.time}}</view>
+          </view>
+      </view>
+  </view>
+  </scroll-view>
+   
+  </van-tab>
+</van-tabs>
+</view>
+

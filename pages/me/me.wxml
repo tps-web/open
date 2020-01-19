@@ -1,0 +1,24 @@
+<!--pages/me/me.wxml-->
+<view class="top">
+  <image src="{{userInfo.avatarUrl}}" class="tx" wx:if="{{hasUserInfo}}"></image>
+  <view wx:else>
+    <image src="../../images/55.png" class="tx"></image>
+    <navigator url="/pages/login/login" class="btn">登录</navigator>
+  </view>
+  <view class="userinfo-nickname" wx:if="{{hasUserInfo}}">{{userInfo.nickName}}</view>
+
+</view>
+<view class="cell">
+  <van-cell title="中心介绍" is-link bindtap="goTo" />
+  <van-cell title="联系方式" is-link bindtap="goToContact" />
+  <van-cell title="退出登录" is-link bindtap="out" wx:if="{{hasUserInfo}}" />
+
+   <!-- <van-cell title="from1" is-link data-url='/pages/text/text' bindtap="gourl" />
+   <van-cell title="from2" is-link data-url='/pages/text1/text1' bindtap="gourl" />
+   <van-cell title="from3" is-link data-url='/pages/text2/text2' bindtap="gourl" />
+   <van-cell title="from4" is-link data-url='/pages/text3/text3' bindtap="gourl" />
+   <van-cell title="from5" is-link data-url='/pages/text4/text4' bindtap="gourl" />
+   <van-cell title="from6" is-link data-url='/pages/text5/text5' bindtap="gourl" />
+   <van-cell title="from7" is-link data-url='/pages/text6/text6' bindtap="gourl" /> -->
+   <!-- <van-cell title="codefrom1" is-link data-url='/pages/text4copy/text4' bindtap="gourl" /> -->
+</view>

@@ -1,0 +1,29 @@
+<!--pages/contact/contact.wxml-->
+
+<!-- <view class="title">中心业务联系方式和监督投诉方式</view>
+<view class="box">
+  <van-panel title="单位名称：" desc="小榄镇农村集体“三资”监管平台中心">
+  </van-panel>
+  <van-panel title="管理交易" desc="小榄镇农村集体资产管理交易业务">
+  </van-panel>
+  <van-panel title="业务咨询电话：:" desc="">
+    <view class="desc" bindtap="phoneCall" data-phone="0760-22118850">0760-22118850</view>
+  </van-panel>
+  <van-panel title="监督投诉电话:" desc="">
+    <view class="desc" bindtap="phoneCall" data-phone="0760-22118850">0760-22118850</view>
+  </van-panel>
+  <navigator class="primary" url="/pages/complaint/complaint">在线投诉</navigator>
+</view> -->
+
+<view class="title">中心业务联系方式和监督投诉方式</view>
+<view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+  <view class="weui-media-box__title">单位名称：</view>
+  <view class="weui-media-box__desc">小榄镇农村集体“三资”监管平台中心</view>
+  <view class="weui-media-box__title">管理交易:</view>
+  <view class="weui-media-box__desc">小榄镇农村集体资产管理交易业务</view>
+  <view class="weui-media-box__title">业务咨询电话：</view>
+  <view class="weui-media-box__desc"  bindtap="phoneCall" data-phone="0760-22118850">0760-22118850</view>
+  <view class="weui-media-box__title">监督投诉电话:</view>
+  <view class="weui-media-box__desc"  bindtap="phoneCall" data-phone="0760-22118850">0760-22118850</view>
+  <navigator class="primary" url="/pages/complaint/complaint">在线投诉</navigator>
+</view>

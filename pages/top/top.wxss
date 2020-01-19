@@ -1,0 +1,31 @@
+/* pages/top/top.wxss */
+.title{
+  width: 90%;
+  margin:0 auto;
+  font-size: 14px;
+  text-align: center;
+}
+.unit{
+  width: 96%;
+  margin:0 auto;
+  font-size: 14px;
+  text-align: right;
+}
+.prove{
+  width: 150%;
+  font-size: 14px;
+  display: flex;
+  margin-top: 8rpx;
+}
+.con{
+  width: 33%;
+}
+.th{
+  background: #E6F3F9;
+}
+@media (min-width: 480px) {
+  /* 仅在 480px 或更宽的屏幕上生效的样式规则 */
+  .prove {
+    width: 100%;
+  }
+}

@@ -1,0 +1,43 @@
+<!--pages/complaint/complaint.wxml-->
+<view class="title">在线投诉</view>
+<form bindsubmit="formSubmit" bindreset="formReset">
+<van-cell-group>
+  <van-field
+   name='username'
+    label="联系人"
+    placeholder="请输入联系人"
+  />
+  <van-field
+    name='phone'
+    label="联系电话"
+    placeholder="请输入联系人手机号码"
+  />
+  <van-field
+      name='who'
+    label="被投诉对象"
+    placeholder="姓名或单位"
+  />
+  <van-field
+    name="content"
+    label="投诉内容"
+    placeholder="填写投诉的详情内容"
+  />
+</van-cell-group>
+  <view class="upImg">上传图片</view>
+ <!-- 用来提示用户上传图片 -->
+   <view class="weui-uploader">
+  <view class="img-v weui-uploader__bd" >
+    <view class='pic' wx:for="{{imgs}}" wx:for-item="item" wx:key="*this">
+        <image class='weui-uploader__img '
+                src="{{item}}"
+                data-index="{{index}}" mode="aspectFill" bindtap="previewImg">
+                  <icon type='cancel' class="delete-btn" data-index="{{index}}" catchtap="deleteImg"></icon>
+        </image>
+    </view>
+     
+      <!-- 用来提示用户上传图片 -->
+      <view class="weui-uploader__input-box pic" bindtap="chooseImg"> </view>
+  </view>
+  <button  class="btn"  formType="submit">提交</button>
+</view>
+</form>

@@ -1,0 +1,28 @@
+<!--pages/text/text.wxml-->
+
+<import src="../top/top.wxml"/>
+    <template is="top" data="{{title: '村干部及村工作人员待遇补贴情况表'}}"/>
+<scroll-view scroll-x='true' class="box" >
+  <view class="tr th" >
+      <view class="td tit">姓名</view>
+      <view class="td tit">职务</view>
+      <view class="td tit">工资</view>
+      <view class="td tit">补贴</view>
+      <view class="td tit">其他</view>
+      <view class="td tit">扣缴</view>
+      <view class="td tit">合计</view>
+      <view class="td tit">备注</view>
+  </view>
+  <view class="tr" wx:for="{{list}}" wx:key="index"  >
+      <view class="td">{{item.name}}</view>
+      <view class="td">{{item.job}}</view>
+      <view class="td">{{item.salary}}</view>
+      <view class="td">{{item.subsidy}}</view>
+      <view class="td">{{item.other}}</view>
+      <view class="td">{{item.pay}}</view>
+      <view class="td">{{item.total}}</view>
+      <view class="td">{{item.remark}}</view>
+      </view>
+ <template is="bottom" />
+</scroll-view>
+

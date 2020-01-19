@@ -1,0 +1,27 @@
+<!--pages/text6/text6.wxml-->
+<!--pages/text3/text3.wxml-->
+<import src="../top/top.wxml"/>
+    <template is="top" data="{{title: '政府拨款使用管理情况明细表'}}"/>
+<scroll-view scroll-x='true' class="box">
+  <view class="tr th">
+      <view class="td tit">资金名称</view>
+      <view class="td tit">资金使用对象（范围）</view>
+      <view class="td tit">支出内容摘要</view>
+      <view class="td tit">收到拨款总额</view>
+      <view class="td tit">本期支付</view>
+      <view class="td tit">累计支付</view>
+      <view class="td tit">结余资金</view>
+      <view class="td tit">备注</view>
+  </view>
+  <view class="tr" wx:for="{{listData}}" wx:key="index">
+      <view class="td">周杰伦</view>
+      <view class="td">流动资产</view>
+      <view class="td">周杰伦</view>
+      <view class="td">12,123,123.00</view>
+      <view class="td">12,123,123.00</view>
+      <view class="td">12,123,123.00</view>
+      <view class="td">12,123,123.00</view>
+      <view class="td">流动资产</view>
+  </view>
+ <template is="bottom" />
+</scroll-view>

@@ -1,0 +1,487 @@
+
+  <view class="title">资产负债表</view>
+
+  <view class="unit">单位：元</view>
+  <scroll-view scroll-x="true" class="fromBox"> 
+      <!-- 收入 -->
+      <view class="box">
+      <view class="mbox">
+       <view class="td th">
+          资产
+        </view>
+        <view class="td th">
+          行次
+        </view>
+        <view class="td th tit">
+          年初数
+        </view>
+        <view class="td th tit">
+          期末数
+        </view>
+         <view class="td headline">
+          流动资产：
+        </view>
+        <view class="td">
+          1
+        </view>
+         <view class="td">
+         22,012,012,00
+        </view>
+        <view class="td">
+          3
+        </view>
+         <view class="td">
+          其中：现金
+        </view>
+        <view class="td">
+        5
+        </view>
+         <view class="td">
+         6
+        </view>
+        <view class="td">
+        7
+        </view>
+         <view class="td">
+         银行存款
+        </view>
+        <view class="td">
+        9
+        </view>
+         <view class="td">
+         10
+        </view>
+        <view class="td">
+          11
+        </view>
+         <view class="td">
+        短期投资
+        </view>
+        <view class="td">
+        13
+        </view>
+         <view class="td">
+        14
+        </view>
+        <view class="td">
+         15
+        </view>
+         <view class="td">
+     应收款项
+        </view>
+        <view class="td">
+        17
+        </view>
+         <view class="td">
+        18
+        </view>
+        <view class="td">
+         19
+        </view>
+         <view class="td">
+       存货
+        </view>
+        <view class="td">
+        21
+        </view>
+         <view class="td">
+          22
+        </view>
+        <view class="td">
+        23
+        </view>
+         <view class="td">
+     流动资产合计：
+        </view>
+        <view class="td">
+         25
+        </view>
+         <view class="td">
+         26
+        </view>
+        <view class="td">
+         27
+        </view>
+         <view class="td">
+        
+        </view>
+        <view class="td" style="height:40rpx">
+     
+        </view>
+         <view class="td">
+      
+        </view>
+        <view class="td">
+     
+        </view>
+         <view class="td headline">
+         农业资产：
+        </view>
+        <view class="td">
+        33
+        </view>
+         <view class="td">
+         34
+        </view>
+        <view class="td">
+        35
+        </view>
+         <view class="td">
+       牲畜（禽）资产
+        </view>
+        <view class="td">
+         37
+        </view>
+         <view class="td">
+         38
+        </view>
+        <view class="td">
+         39
+        </view>
+         <view class="td">
+        林木资产
+        </view>
+        <view class="td">
+         41
+        </view>
+         <view class="td">
+         42
+        </view>
+        <view class="td">
+         43
+        </view>
+         <view class="td">
+         农业资产合计
+        </view>
+        <view class="td">
+        2
+        </view>
+         <view class="td">
+        12,123,123.00
+        </view>
+          <view class="td">
+          12,123,123.00
+        </view>
+        <view class="td headline" style="height:40rpx"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td headline">长期资产:</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td">长期投资</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td">长期持续费用</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td">长期资产合计</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td" style="height:40rpx"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td headline" >固定资产：</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td " >固定资产原价</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td " >减：累计折旧</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+         <view class="td " >固定资产净值</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+         <view class="td " >固定资产清理</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+         <view class="td " >在建工程</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+         <view class="td " >固定资产合计</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+         <view class="td" style="height:40rpx" ></view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+         <view class="td headline" >无形资产：</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+         <view class="td" >无形资产</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+         <view class="td " >无形资产累计摊销</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+         <view class="td" style="height:40rpx" ></view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+         <view class="td headline">资产总计</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+      </view>
+       
+      </view>
+      <!-- 支出 -->
+      <view class="box">
+      <view class="mbox">
+       <view class="td th">
+          负债及所有者权益
+        </view>
+        <view class="td th">
+          行次
+        </view>
+        <view class="td th tit">
+          年初数
+        </view>
+        <view class="td th tit">
+          期末数
+        </view>
+         <view class="td headline">
+          流动负债：
+        </view>
+        <view class="td">
+          1
+        </view>
+         <view class="td">
+         2
+        </view>
+        <view class="td">
+          3
+        </view>
+         <view class="td">
+          短期借款
+        </view>
+        <view class="td">
+        5
+        </view>
+         <view class="td">
+         6
+        </view>
+        <view class="td">
+        7
+        </view>
+         <view class="td">
+         应付款项
+        </view>
+        <view class="td">
+        9
+        </view>
+         <view class="td">
+         10
+        </view>
+        <view class="td">
+          11
+        </view>
+         <view class="td">
+       应付工资
+        </view>
+        <view class="td">
+        13
+        </view>
+         <view class="td">
+        14
+        </view>
+        <view class="td">
+         15
+        </view>
+         <view class="td">
+        应付福利费
+        </view>
+        <view class="td">
+        17
+        </view>
+         <view class="td">
+        18
+        </view>
+        <view class="td">
+         19
+        </view>
+         <view class="td" style="height:40rpx">
+        
+        </view>
+        <view class="td">
+        
+        </view>
+         <view class="td">
+          
+        </view>
+        <view class="td">
+        
+        </view>
+         <view class="td">
+        流动负债合计
+        </view>
+        <view class="td">
+         25
+        </view>
+         <view class="td">
+         26
+        </view>
+        <view class="td">
+         27
+        </view>
+         <view class="td">
+         
+        </view>
+        <view class="td" style="height:40rpx">
+      
+        </view>
+         <view class="td">
+       
+        </view>
+        <view class="td">
+       
+        </view>
+         <view class="td headline">
+        长期负债：
+        </view>
+        <view class="td">
+        33
+        </view>
+         <view class="td">
+         34
+        </view>
+        <view class="td">
+        35
+        </view>
+         <view class="td">
+        长期借款及应付款
+        </view>
+        <view class="td">
+         37
+        </view>
+         <view class="td">
+         38
+        </view>
+        <view class="td">
+         39
+        </view>
+         <view class="td" style="height:40rpx">
+        
+        </view>
+        <view class="td">
+         
+        </view>
+         <view class="td">
+         
+        </view>
+        <view class="td">
+       
+        </view>
+         <view class="td">
+         长期负债合计
+        </view>
+        <view class="td">
+         45
+        </view>
+         <view class="td">
+          46
+        </view>
+          <view class="td">
+          47
+        </view>
+        <view class="td" style="height:40rpx"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td headline" >其他负债：</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td">一事一议资金</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+          <view class="td">专项应付款</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+          <view class="td">递廷收入</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+          <view class="td" style="height:40rpx"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+          <view class="td">其他负债合计</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+          <view class="td" style="height:40rpx"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+          <view class="td">负债合计</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+          <view class="td" style="height:40rpx"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+         <view class="td" style="height:40rpx"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+         <view class="td headline">所有者权益：</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+         <view class="td">资本</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td">公积公益金</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td">未分配收益</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td">所有者权益合计</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+          <view class="td" style="height:40rpx"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+          <view class="td" style="height:40rpx"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td"></view>
+          <view class="td">负债和所有者权益总计</view>
+        <view class="td"></view>
+        <view class="td"></view>
+        <view class="td">123,123,123.00</view>
+      </view>
+      </view>
+      <view class="bottom">
+          <view class="bottom_left common">村委会负债人:</view>
+          <view class="bottom_middle common">会计:</view>
+          <view class="bottom_right common">村务公开监督(理财)小组</view>
+       </view>
+  </scroll-view>
+

@@ -1,0 +1,40 @@
+/* pages/text4/text4.wxss */
+@import "../top/top.wxss";
+.box{
+  width: 96%;
+  margin:0 auto;
+}
+.tr{
+  width: 178%;
+  font-size: 14px;
+  display: flex;
+  white-space: normal;
+}
+.td{
+  width: 127rpx;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 4rpx;
+}
+.td:nth-child(8n+5){
+  width: 200rpx;
+  text-align: right;
+
+}
+.td:nth-child(8n+6){
+  width: 200rpx;
+  text-align: right;
+}
+.td:nth-child(8n+7){
+  width: 200rpx;
+  text-align: right;
+}
+.tit{
+  text-align: center !important;
+}
+@media (min-width: 480px) {
+  .tr {
+    width: 100%;
+  }
+ 
+}

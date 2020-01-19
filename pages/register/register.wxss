@@ -1,0 +1,49 @@
+/* pages/register/register.wxss */
+page{
+  background: #e5e5e5;
+}
+.box{
+  position:relative;
+  width: 90%;
+  background: #fff;
+  margin: 20% auto 0;
+  padding: 10rpx;
+}
+.tit{
+  padding: 30rpx;
+  text-align:center;
+  border-bottom:1px solid #ccc;
+}
+.register{
+  position: absolute;
+  right: 6rpx;
+  top:64rpx;
+  padding: 10rpx;
+  font-size: 28rpx;
+}
+.van-cell {
+  width: 90% !important;
+  margin: 20rpx auto;
+  border: 1px solid #ccc;
+  border-radius: 20rpx;
+}
+.submitBtn{
+  width: 90% !important;
+  margin: 20rpx auto;
+}
+.wxLogin{
+  width: 100%;
+  text-align: center;
+  color: #666;
+  margin-top: 34rpx;
+}
+.pickerSconed{
+  width: 84% ;
+  padding: 16rpx;
+  margin: 20rpx auto;
+  border: 1px solid #ccc;
+  border-radius: 20rpx;
+}
+.txt{
+  font-size: 30rpx;
+}
